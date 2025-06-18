@@ -1,83 +1,79 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #f4f4f4;
-  color: #333;
+  background: #f2f2f2;
 }
 
-.wrapper {
+.cv-container {
   display: flex;
   max-width: 1000px;
-  margin: auto;
-  background: white;
+  margin: 40px auto;
+  background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.left-column {
+.left {
   width: 35%;
-  background: #1c75bc;
+  background: #0e76a8;
   color: white;
   padding: 30px 20px;
   box-sizing: border-box;
 }
 
-.left-column img {
-  width: 130px;
-  height: 130px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #fff;
-  display: block;
-  margin: 0 auto 20px auto;
-}
-
-.left-column h1 {
-  text-align: center;
-  margin: 0;
-  font-size: 20px;
-}
-
-.left-column h3 {
-  text-align: center;
-  font-weight: normal;
-  margin: 5px 0 20px 0;
-  font-size: 14px;
-}
-
-.left-column h2 {
-  font-size: 16px;
-  border-bottom: 1px solid #fff;
-  margin-top: 25px;
-}
-
-.left-column ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: 14px;
-}
-
-.left-column p, .left-column li, .left-column a {
-  font-size: 14px;
-  color: white;
-  text-decoration: none;
-}
-
-.right-column {
+.right {
   width: 65%;
   padding: 30px;
   box-sizing: border-box;
 }
 
-.right-column h2 {
-  color: #1c75bc;
-  font-size: 18px;
-  margin-bottom: 10px;
+.avatar {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px auto;
+  border: 3px solid #fff;
 }
 
-.right-column p, .right-column li {
-  font-size: 15px;
+h1, h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.right-column ul {
+h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.left h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.right h3 {
+  color: #0e76a8;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.left a {
+  color: #ffdd57;
+  word-break: break-word;
+}
+
+.left ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.right ul {
   padding-left: 20px;
 }
